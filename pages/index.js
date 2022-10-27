@@ -19,7 +19,7 @@ export default function Home({ products }) {
     if (data.countInStock < quantity) {
       return toast.error('Sorry. Product is out of stock');
     }
-    dispatch({ type: 'CART_ADD_ITEM', payload: { ...product, quantity } });
+    dispatch({ type: 'ADD_ITEM', payload: { ...product, quantity } });
 
     toast.success('Product added to the cart');
   };

@@ -65,7 +65,7 @@ const Layout = ({ title, children }) => {
 
                   <Menu.Items className="absolute right-0 w-56 origin-top-right shadow-lg bg-white border">
                     <Menu.Item>
-                      <DropdownLink className="dropdown-link" href="/">
+                      <DropdownLink className="dropdown-link" href="/profile">
                         Profile
                       </DropdownLink>
                     </Menu.Item>
